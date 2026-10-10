@@ -1,0 +1,72 @@
+"""Shared rendering contracts, constraints, and display transforms."""
+
+from fabstack.rendering.constants import (
+    DISPLAY_TOP_HEADROOM_PX,
+    DYNAMIC_TARGET_STACK_PX,
+    FEATURE_SCALE_COEFFICIENT,
+    FEATURE_SCALE_EXPONENT,
+    MAX_AUTO_CANVAS_HEIGHT_SCALE,
+    MAX_CONSTRAINT_PASSES,
+    MAX_THICKNESS_NM,
+    MIN_LAYER_PX,
+    MIN_SUBSTRATE_CORE_PX,
+    MIN_THICKNESS_NM,
+    MIN_VOID_PX,
+    ORDER_MARGIN_PX,
+    ORDER_TIE_RATIO,
+    SUBSTRATE_ROWS_PER_UM,
+    VISUAL_RENDER_SCALE_BASE,
+    WORD_EXPORT_DPI,
+    WORD_EXPORT_HORIZONTAL_PAD_IN,
+    WORD_EXPORT_IMAGE_WIDTH_IN,
+    WORD_EXPORT_PAGE_HEIGHT_IN,
+    WORD_EXPORT_PAGE_MARGIN_IN,
+    WORD_EXPORT_PAGE_WIDTH_IN,
+    WORD_EXPORT_VERTICAL_PAD_PX,
+)
+from fabstack.rendering.scaling import (
+    MAX_LAYER_PX,
+    _raw_feature_scale_um,
+    _visual_height_to_display_rows,
+    physical_span_to_raw_visual_px,
+    thickness_to_raw_visual_px,
+)
+from fabstack.rendering.contracts import SceneConstraintHost, SegmentTargetHost
+from fabstack.rendering.scene_constraints import build_scene_constraint_profile
+from fabstack.rendering.segment_targets import (
+    build_material_column_segments_with_targets,
+)
+
+__all__ = [
+    "DISPLAY_TOP_HEADROOM_PX",
+    "DYNAMIC_TARGET_STACK_PX",
+    "FEATURE_SCALE_COEFFICIENT",
+    "FEATURE_SCALE_EXPONENT",
+    "MAX_AUTO_CANVAS_HEIGHT_SCALE",
+    "MAX_CONSTRAINT_PASSES",
+    "MAX_LAYER_PX",
+    "MAX_THICKNESS_NM",
+    "MIN_LAYER_PX",
+    "MIN_SUBSTRATE_CORE_PX",
+    "MIN_THICKNESS_NM",
+    "MIN_VOID_PX",
+    "ORDER_MARGIN_PX",
+    "ORDER_TIE_RATIO",
+    "SUBSTRATE_ROWS_PER_UM",
+    "VISUAL_RENDER_SCALE_BASE",
+    "WORD_EXPORT_DPI",
+    "WORD_EXPORT_HORIZONTAL_PAD_IN",
+    "WORD_EXPORT_IMAGE_WIDTH_IN",
+    "WORD_EXPORT_PAGE_HEIGHT_IN",
+    "WORD_EXPORT_PAGE_MARGIN_IN",
+    "WORD_EXPORT_PAGE_WIDTH_IN",
+    "WORD_EXPORT_VERTICAL_PAD_PX",
+    "SceneConstraintHost",
+    "SegmentTargetHost",
+    "_raw_feature_scale_um",
+    "_visual_height_to_display_rows",
+    "build_material_column_segments_with_targets",
+    "build_scene_constraint_profile",
+    "physical_span_to_raw_visual_px",
+    "thickness_to_raw_visual_px",
+]

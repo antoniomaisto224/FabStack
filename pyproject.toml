@@ -1,0 +1,26 @@
+[project]
+name = "fabstack"
+version = "1.1.0"
+description = "Fab process cross-section visualizer"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.8,<4",
+    "numpy>=1.26,<3",
+    "Pillow>=10,<13",
+    "PyQt5>=5.15,<6",
+    "python-docx>=1.1,<2",
+]
+
+[project.optional-dependencies]
+local-ai = ["llama-cpp-python>=0.3,<0.4"]
+build = ["pyinstaller>=6.10,<7"]
+
+[tool.setuptools.packages.find]
+include = ["fabstack*"]
+
+[tool.setuptools.package-data]
+fabstack = ["assets/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

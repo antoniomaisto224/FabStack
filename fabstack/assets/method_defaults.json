@@ -1,0 +1,16 @@
+{
+  "operations": {
+    "Deposit": {
+      "etchant": "KOH",
+      "etch_mode": "anisotropic",
+      "temperature": 0.0,
+      "time": 0.0
+    },
+    "Lithography": {
+      "etchant": "Positive lithography",
+      "etch_mode": "anisotropic",
+      "temperature": 100.0,
+      "time": 0.0
+    }
+  }
+}

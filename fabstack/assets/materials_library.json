@@ -1,0 +1,397 @@
+{
+  "materials": {
+    "Substrates": [
+      "Silicon (Si)",
+      "Glass",
+      "Fused Silica",
+      "Quartz",
+      "Sapphire",
+      "MEMpax"
+    ],
+    "Dielectrics": [
+      "Silicon Dioxide (SiO2)",
+      "Silicon Nitride (Si3N4)",
+      "Polysilicon"
+    ],
+    "Polymers": [
+      "Polydimethylsiloxane (PDMS)",
+      "PMMA (Poly(methyl methacrylate))",
+      "Polycarbonate (PC)",
+      "Polyimide",
+      "Polyethylene (PE)",
+      "Polystyrene (PS)",
+      "Cyclic Olefin Copolymer (COC)",
+      "Polyethylene Glycol Diacrylate (PEGDA)",
+      "Polyethylene Terephthalate (PET)",
+      "Biaxially Oriented Polypropylene (BOPP)"
+    ],
+    "Photoresists": [
+      "PR_SU-8 Photoresist",
+      "PR_Positive Photoresist (DNQ-Novolac)",
+      "PR_Negative Photoresist (SU-8, HSQ, AZ nLOF series)",
+      "PR_Epoxy-based Photoresist",
+      "PR_Diazonaphthoquinone (DNQ)",
+      "PR_Novolac Resin",
+      "PR_Hydrogen Silsesquioxane (HSQ)",
+      "Photoresist"
+    ],
+    "Metals": [
+      "Aluminum",
+      "Gold",
+      "Chromium",
+      "Titanium",
+      "Nickel",
+      "Copper",
+      "Platinum",
+      "Tungsten"
+    ],
+    "Ceramics": [
+      "Silicon Carbide (SiC)",
+      "Aluminum Nitride (AlN)",
+      "Titanium Nitride (TiN)"
+    ],
+    "Solvents": [
+      "Acetone",
+      "IPA",
+      "NMP",
+      "Remover PG",
+      "PGMEA",
+      "MIBK"
+    ],
+    "Developers": [
+      "SU-8 Developer (PGMEA)",
+      "AZ 400K",
+      "MF-319",
+      "AZ MIF series"
+    ],
+    "Etchants": [
+      "KOH",
+      "TMAH",
+      "EDP",
+      "HNA",
+      "HF",
+      "Buffered HF (BOE)",
+      "Hot Phosphoric Acid",
+      "Aqua Regia",
+      "KI/I2",
+      "Chromium Etchant (CR-7)",
+      "Gold Etchant (KI/I2 or Aqua Regia)",
+      "Aluminum Etchant (PAN)",
+      "Copper Etchant (FeCl3)",
+      "Nickel Etchant",
+      "Titanium Etchant",
+      "Piranha",
+      "Acetone",
+      "NMP",
+      "O2 Plasma",
+      "Ar Plasma",
+      "RIE CF4",
+      "RIE CHF3",
+      "RIE SF6",
+      "RIE Cl2",
+      "ICP-RIE (SF6 / O2)",
+      "DRIE (Bosch process)",
+      "Cl2/BCl3 Plasma",
+      "Remover PG"
+    ]
+  },
+  "compatibility": {
+    "etchants_by_material": {
+      "Silicon (Si)": [
+        "KOH",
+        "TMAH",
+        "EDP",
+        "HNA",
+        "RIE SF6",
+        "ICP-RIE (SF6 / O2)",
+        "DRIE (Bosch process)",
+        "Test"
+      ],
+      "Polysilicon": [
+        "KOH",
+        "TMAH",
+        "EDP",
+        "HNA",
+        "RIE SF6",
+        "ICP-RIE (SF6 / O2)",
+        "DRIE (Bosch process)"
+      ],
+      "Silicon Dioxide (SiO2)": [
+        "HF",
+        "Buffered HF (BOE)",
+        "RIE CHF3",
+        "RIE CF4"
+      ],
+      "Glass": [
+        "HF",
+        "Buffered HF (BOE)",
+        "RIE CHF3",
+        "RIE CF4"
+      ],
+      "Fused Silica": [
+        "HF",
+        "Buffered HF (BOE)",
+        "RIE CHF3",
+        "RIE CF4"
+      ],
+      "Quartz": [
+        "HF",
+        "Buffered HF (BOE)",
+        "RIE CHF3",
+        "RIE CF4"
+      ],
+      "Silicon Nitride (Si3N4)": [
+        "Hot Phosphoric Acid",
+        "RIE CHF3",
+        "RIE CF4"
+      ],
+      "Sapphire": [
+        "Cl2/BCl3 Plasma",
+        "RIE Cl2"
+      ],
+      "Gold": [
+        "Gold Etchant (KI/I2)",
+        "Aqua Regia"
+      ],
+      "Chromium": [
+        "Chromium Etchant (CR-7)"
+      ],
+      "Aluminum": [
+        "Aluminum Etchant (PAN)",
+        "RIE Cl2",
+        "Cl2/BCl3 Plasma"
+      ],
+      "Copper": [
+        "Copper Etchant (FeCl3)"
+      ],
+      "Nickel": [
+        "Nickel Etchant"
+      ],
+      "Titanium": [
+        "Titanium Etchant",
+        "RIE Cl2"
+      ],
+      "Platinum": [
+        "Aqua Regia",
+        "Test"
+      ],
+      "Tungsten": [
+        "RIE SF6",
+        "RIE Cl2"
+      ],
+      "MEMpax": [
+        "HF"
+      ],
+      "AZ 400K": []
+    },
+    "etchants_by_category": {
+      "Photoresists": [
+        "Acetone",
+        "NMP",
+        "Remover PG",
+        "O2 Plasma",
+        "Ar Plasma"
+      ],
+      "Polymers": [
+        "Acetone",
+        "NMP",
+        "O2 Plasma",
+        "Ar Plasma"
+      ]
+    },
+    "deposit_methods_by_material": {
+      "AZ 400K": [
+        "Spincoating"
+      ]
+    },
+    "deposit_methods_by_category": {
+      "Photoresists": [],
+      "Metals": [
+        "Thermal deposition",
+        "Sputtering"
+      ]
+    },
+    "etch_modes_by_etchant": {},
+    "bond_by_material": {},
+    "bond_by_category": {},
+    "strip_by_material": {},
+    "strip_by_category": {},
+    "liftoff_by_material": {},
+    "liftoff_by_category": {},
+    "clean_by_material": {},
+    "clean_by_category": {},
+    "restrictions_by_operation": {
+      "Deposit": [
+        "Photoresist",
+        "PR_Diazonaphthoquinone (DNQ)",
+        "PR_Epoxy-based Photoresist",
+        "PR_Hydrogen Silsesquioxane (HSQ)",
+        "PR_Negative Photoresist (SU-8, HSQ, AZ nLOF series)",
+        "PR_Novolac Resin",
+        "PR_Positive Photoresist (DNQ-Novolac)",
+        "PR_SU-8 Photoresist",
+        "Acetone",
+        "Aluminum Etchant (PAN)",
+        "Aqua Regia",
+        "Ar Plasma",
+        "Buffered HF (BOE)",
+        "Chromium Etchant (CR-7)",
+        "Cl2/BCl3 Plasma",
+        "Copper Etchant (FeCl3)",
+        "DRIE (Bosch process)",
+        "EDP",
+        "Gold Etchant (KI/I2 or Aqua Regia)",
+        "HF",
+        "HNA",
+        "Hot Phosphoric Acid",
+        "ICP-RIE (SF6 / O2)",
+        "KI/I2",
+        "KOH",
+        "Nickel Etchant",
+        "NMP",
+        "O2 Plasma",
+        "Piranha",
+        "Remover PG",
+        "RIE CF4",
+        "RIE CHF3",
+        "RIE Cl2",
+        "RIE SF6",
+        "Titanium Etchant",
+        "TMAH",
+        "AZ 400K",
+        "AZ MIF series",
+        "MF-319",
+        "SU-8 Developer (PGMEA)",
+        "IPA",
+        "MIBK",
+        "PGMEA"
+      ],
+      "Spincoating": [
+        "Aluminum Nitride (AlN)",
+        "Silicon Carbide (SiC)",
+        "Titanium Nitride (TiN)",
+        "AZ 400K",
+        "AZ MIF series",
+        "MF-319",
+        "SU-8 Developer (PGMEA)",
+        "Polysilicon",
+        "Silicon Dioxide (SiO2)",
+        "Silicon Nitride (Si3N4)",
+        "Acetone",
+        "Aluminum Etchant (PAN)",
+        "Aqua Regia",
+        "Ar Plasma",
+        "Buffered HF (BOE)",
+        "Chromium Etchant (CR-7)",
+        "Cl2/BCl3 Plasma",
+        "Copper Etchant (FeCl3)",
+        "DRIE (Bosch process)",
+        "EDP",
+        "Gold Etchant (KI/I2 or Aqua Regia)",
+        "HF",
+        "HNA",
+        "Hot Phosphoric Acid",
+        "ICP-RIE (SF6 / O2)",
+        "KI/I2",
+        "KOH",
+        "Nickel Etchant",
+        "NMP",
+        "O2 Plasma",
+        "Piranha",
+        "Remover PG",
+        "RIE CF4",
+        "RIE CHF3",
+        "RIE Cl2",
+        "RIE SF6",
+        "Titanium Etchant",
+        "TMAH",
+        "Aluminum",
+        "Chromium",
+        "Copper",
+        "Gold",
+        "Nickel",
+        "Platinum",
+        "Titanium",
+        "Tungsten",
+        "IPA",
+        "MIBK",
+        "PGMEA",
+        "Fused Silica",
+        "Glass",
+        "MEMpax",
+        "Quartz",
+        "Sapphire",
+        "Silicon (Si)"
+      ],
+      "Bond": [
+        "Aluminum Nitride (AlN)",
+        "Silicon Carbide (SiC)",
+        "Titanium Nitride (TiN)",
+        "AZ 400K",
+        "AZ MIF series",
+        "MF-319",
+        "SU-8 Developer (PGMEA)",
+        "Polysilicon",
+        "Silicon Dioxide (SiO2)",
+        "Silicon Nitride (Si3N4)",
+        "Acetone",
+        "Aluminum Etchant (PAN)",
+        "Aqua Regia",
+        "Ar Plasma",
+        "Buffered HF (BOE)",
+        "Chromium Etchant (CR-7)",
+        "Cl2/BCl3 Plasma",
+        "Copper Etchant (FeCl3)",
+        "DRIE (Bosch process)",
+        "EDP",
+        "Gold Etchant (KI/I2 or Aqua Regia)",
+        "HF",
+        "HNA",
+        "Hot Phosphoric Acid",
+        "ICP-RIE (SF6 / O2)",
+        "KI/I2",
+        "KOH",
+        "Nickel Etchant",
+        "NMP",
+        "O2 Plasma",
+        "Piranha",
+        "Remover PG",
+        "RIE CF4",
+        "RIE CHF3",
+        "RIE Cl2",
+        "RIE SF6",
+        "Titanium Etchant",
+        "TMAH",
+        "Aluminum",
+        "Chromium",
+        "Copper",
+        "Gold",
+        "Nickel",
+        "Platinum",
+        "Titanium",
+        "Tungsten",
+        "Photoresist",
+        "PR_Diazonaphthoquinone (DNQ)",
+        "PR_Epoxy-based Photoresist",
+        "PR_Hydrogen Silsesquioxane (HSQ)",
+        "PR_Negative Photoresist (SU-8, HSQ, AZ nLOF series)",
+        "PR_Novolac Resin",
+        "PR_Positive Photoresist (DNQ-Novolac)",
+        "PR_SU-8 Photoresist",
+        "Biaxially Oriented Polypropylene (BOPP)",
+        "Cyclic Olefin Copolymer (COC)",
+        "PMMA (Poly(methyl methacrylate))",
+        "Polycarbonate (PC)",
+        "Polydimethylsiloxane (PDMS)",
+        "Polyethylene (PE)",
+        "Polyethylene Glycol Diacrylate (PEGDA)",
+        "Polyethylene Terephthalate (PET)",
+        "Polyimide",
+        "Polystyrene (PS)",
+        "IPA",
+        "MIBK",
+        "PGMEA"
+      ]
+    }
+  }
+}
