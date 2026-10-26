@@ -1,10 +1,14 @@
 # FabStack
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antoniomaisto224/FabStack/blob/main/FabStack_Quick_Start_Colab.ipynb)
+
 FabStack is a desktop application for designing semiconductor and
 microfabrication process flows as physically dimensioned 2D cross-sections.
 The process engine retains exact dimensions in micrometers while the renderer
 uses a shared adaptive scale so nanometer films and wafer-scale structures can
 remain visible in the same view.
+
+> **New to FabStack?** Try it in Google Colab without installing anything. Click the badge above.
 
 ## Capabilities
 
@@ -35,6 +39,21 @@ rules and a package map.
 
 Display scaling never changes the physical process state. Main-canvas views,
 exports, picking, and history rendering all consume the same display mapping.
+
+## Quick Start with Colab
+
+Not ready to install? Try FabStack in your browser with Google Colab:
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antoniomaisto224/FabStack/blob/main/FabStack_Quick_Start_Colab.ipynb)
+
+The notebook installs everything in about a minute, then offers:
+
+- **The full desktop app in your browser**, streamed from Colab through a virtual display (noVNC)
+- **A Python API** for scripting process flows and rendering cross-sections inline
+- **A point-and-click builder** for adding steps without code
+- **Upload and download of `.fab` files**, which open in the desktop app
+
+Files made in Colab are deleted when the runtime shuts down, so download what you want to keep.
 
 ## Development setup
 
