@@ -1,14 +1,11 @@
 # FabStack
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antoniomaisto224/FabStack/blob/main/FabStack_Quick_Start_Colab.ipynb)
-
 FabStack is a desktop application for designing semiconductor and
 microfabrication process flows as physically dimensioned 2D cross-sections.
 The process engine retains exact dimensions in micrometers while the renderer
 uses a shared adaptive scale so nanometer films and wafer-scale structures can
 remain visible in the same view.
 
-> **New to FabStack?** Try it in Google Colab without installing anything. Click the badge above.
 
 ## Capabilities
 
